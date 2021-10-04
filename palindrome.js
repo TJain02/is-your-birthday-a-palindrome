@@ -209,7 +209,7 @@ function clickHandler()
         var isItpalindrome = checkPalindromeForAllFormats(date);
         if (isItpalindrome === "true")
         {
-            outputHere.innerText = "Your Birthday is a palindrome";
+            outputHere.innerText = "Yay!Your birthday is a palindrome!";
         }else {
             var  answer = [ctr, nextDate] = nextPalindromeDate(date);
             outputHere.innerText = " The next palindrome date is " + nextDate.day +  "-" + nextDate.month + "-" + nextDate.year + ". You missed it by " + ctr + " days!" ;
